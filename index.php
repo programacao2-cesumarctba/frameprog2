@@ -2,6 +2,6 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+include "readerUrl.php";
 
-$teste = new \Core\Classes\Teste;
-
+ReaderUrl->index();
